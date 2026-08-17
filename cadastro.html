@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8"> <!-- Padrão global para mostrar letras -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ajustar a largura da página automaticamente -->
+  <title>Formulário</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Cadastro Lojas Brincos e Companhia</h1>
+
+  <!-- Formulário que utiliza o método POST para enviar os dados -->
+  <form id="form" name="form" method="post" action="processaCadastro.php">
+    Nome <br> <input type="text" name="nome" id="nome" required> <br>
+    Idade <br> <input type="text" name="idade" id="idade" required> <br>
+    Profissão <br> <input type="text" name="profissao" id="profissao" required> <br>
+    Salário pretendido <br> <input type="text" name="salario" id="salario" required> <br>
+    Experiência anterior <br> <textarea type="text" name="experiencia" id="experiencia" required></textarea>
+
+    <br><br> <input class="button" name="enviar" type="submit" id="enviar" value="Enviar">
+  </form>
+</body>
+</html>
